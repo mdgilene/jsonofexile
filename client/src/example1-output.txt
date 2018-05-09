@@ -1,0 +1,422 @@
+{
+  "data": {
+    "items": [
+      {
+        "_id": "5af267fcd2f81c2c0ceed342",
+        "name": "Agnerod South",
+        "rarity": "UNIQUE",
+        "levelReq": 66,
+        "class": "STAVES",
+        "dropLevel": null,
+        "statReq": {
+          "str": 113,
+          "dex": 0,
+          "int": 113
+        },
+        "flavor": "One for each corner of the great Vinktar Square.",
+        "tags": [
+          "staff",
+          "two_hand_weapon",
+          "twohand",
+          "weapon",
+          "default"
+        ],
+        "icon": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/7/72/Agnerod_inventory_icon.png?version=d1865cff75c2416a9d1bb86cd8abff50",
+        "base": "Imperial Staff",
+        "implicitMods": [
+          {
+            "text": "18% Chance to Block",
+            "min": {
+              "min": 18,
+              "max": 18
+            },
+            "max": {
+              "min": 18,
+              "max": 18
+            }
+          }
+        ],
+        "explicitMods": [
+          {
+            "text": "+2 to Level of Socketed Lightning Gems",
+            "min": {
+              "min": 2,
+              "max": 2
+            },
+            "max": {
+              "min": 2,
+              "max": 2
+            }
+          },
+          {
+            "text": "+(80-120) to Intelligence",
+            "min": {
+              "min": 80,
+              "max": 80
+            },
+            "max": {
+              "min": 120,
+              "max": 120
+            }
+          },
+          {
+            "text": "(30-50)% increased Lightning Damage",
+            "min": {
+              "min": 30,
+              "max": 30
+            },
+            "max": {
+              "min": 50,
+              "max": 50
+            }
+          },
+          {
+            "text": "+5% to maximum Lightning Resistance",
+            "min": {
+              "min": null,
+              "max": null
+            },
+            "max": {
+              "min": 5,
+              "max": 5
+            }
+          },
+          {
+            "text": "40% increased Strength Requirement",
+            "min": {
+              "min": 40,
+              "max": 40
+            },
+            "max": {
+              "min": 40,
+              "max": 40
+            }
+          },
+          {
+            "text": "Damage Penetrates 20% Lightning Resistance",
+            "min": {
+              "min": 20,
+              "max": 20
+            },
+            "max": {
+              "min": 20,
+              "max": 20
+            }
+          }
+        ]
+      },
+      {
+        "_id": "5af267fcd2f81c2c0ceed34a",
+        "name": "Agnerod North",
+        "rarity": "UNIQUE",
+        "levelReq": 66,
+        "class": "STAVES",
+        "dropLevel": null,
+        "statReq": {
+          "str": 113,
+          "dex": 0,
+          "int": 113
+        },
+        "flavor": "One for each corner of the great Vinktar Square.",
+        "tags": [
+          "staff",
+          "two_hand_weapon",
+          "twohand",
+          "weapon",
+          "default"
+        ],
+        "icon": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/7/72/Agnerod_inventory_icon.png?version=d1865cff75c2416a9d1bb86cd8abff50",
+        "base": "Imperial Staff",
+        "implicitMods": [
+          {
+            "text": "18% Chance to Block",
+            "min": {
+              "min": 18,
+              "max": 18
+            },
+            "max": {
+              "min": 18,
+              "max": 18
+            }
+          }
+        ],
+        "explicitMods": [
+          {
+            "text": "+2 to Level of Socketed Lightning Gems",
+            "min": {
+              "min": 2,
+              "max": 2
+            },
+            "max": {
+              "min": 2,
+              "max": 2
+            }
+          },
+          {
+            "text": "+(80-120) to Intelligence",
+            "min": {
+              "min": 80,
+              "max": 80
+            },
+            "max": {
+              "min": 120,
+              "max": 120
+            }
+          },
+          {
+            "text": "(30-50)% increased Lightning Damage",
+            "min": {
+              "min": 30,
+              "max": 30
+            },
+            "max": {
+              "min": 50,
+              "max": 50
+            }
+          },
+          {
+            "text": "15% chance to Shock",
+            "min": {
+              "min": 15,
+              "max": 15
+            },
+            "max": {
+              "min": 15,
+              "max": 15
+            }
+          },
+          {
+            "text": "40% increased Strength Requirement",
+            "min": {
+              "min": 40,
+              "max": 40
+            },
+            "max": {
+              "min": 40,
+              "max": 40
+            }
+          },
+          {
+            "text": "Damage Penetrates 20% Lightning Resistance",
+            "min": {
+              "min": 20,
+              "max": 20
+            },
+            "max": {
+              "min": 20,
+              "max": 20
+            }
+          }
+        ]
+      },
+      {
+        "_id": "5af267fcd2f81c2c0ceed352",
+        "name": "Agnerod East",
+        "rarity": "UNIQUE",
+        "levelReq": 66,
+        "class": "STAVES",
+        "dropLevel": null,
+        "statReq": {
+          "str": 113,
+          "dex": 0,
+          "int": 113
+        },
+        "flavor": "One for each corner of the great Vinktar Square.",
+        "tags": [
+          "staff",
+          "two_hand_weapon",
+          "twohand",
+          "weapon",
+          "default"
+        ],
+        "icon": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/7/72/Agnerod_inventory_icon.png?version=d1865cff75c2416a9d1bb86cd8abff50",
+        "base": "Imperial Staff",
+        "implicitMods": [
+          {
+            "text": "18% Chance to Block",
+            "min": {
+              "min": 18,
+              "max": 18
+            },
+            "max": {
+              "min": 18,
+              "max": 18
+            }
+          }
+        ],
+        "explicitMods": [
+          {
+            "text": "+2 to Level of Socketed Lightning Gems",
+            "min": {
+              "min": 2,
+              "max": 2
+            },
+            "max": {
+              "min": 2,
+              "max": 2
+            }
+          },
+          {
+            "text": "+(80-120) to Intelligence",
+            "min": {
+              "min": 80,
+              "max": 80
+            },
+            "max": {
+              "min": 120,
+              "max": 120
+            }
+          },
+          {
+            "text": "(30-50)% increased Lightning Damage",
+            "min": {
+              "min": 30,
+              "max": 30
+            },
+            "max": {
+              "min": 50,
+              "max": 50
+            }
+          },
+          {
+            "text": "100% increased Shock Duration on Enemies",
+            "min": {
+              "min": 100,
+              "max": 100
+            },
+            "max": {
+              "min": 100,
+              "max": 100
+            }
+          },
+          {
+            "text": "40% increased Strength Requirement",
+            "min": {
+              "min": 40,
+              "max": 40
+            },
+            "max": {
+              "min": 40,
+              "max": 40
+            }
+          },
+          {
+            "text": "Damage Penetrates 20% Lightning Resistance",
+            "min": {
+              "min": 20,
+              "max": 20
+            },
+            "max": {
+              "min": 20,
+              "max": 20
+            }
+          }
+        ]
+      },
+      {
+        "_id": "5af267fcd2f81c2c0ceed373",
+        "name": "Agnerod West",
+        "rarity": "UNIQUE",
+        "levelReq": 66,
+        "class": "STAVES",
+        "dropLevel": null,
+        "statReq": {
+          "str": 113,
+          "dex": 0,
+          "int": 113
+        },
+        "flavor": "One for each corner of the great Vinktar Square.",
+        "tags": [
+          "staff",
+          "two_hand_weapon",
+          "twohand",
+          "weapon",
+          "default"
+        ],
+        "icon": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/7/72/Agnerod_inventory_icon.png?version=d1865cff75c2416a9d1bb86cd8abff50",
+        "base": "Imperial Staff",
+        "implicitMods": [
+          {
+            "text": "18% Chance to Block",
+            "min": {
+              "min": 18,
+              "max": 18
+            },
+            "max": {
+              "min": 18,
+              "max": 18
+            }
+          }
+        ],
+        "explicitMods": [
+          {
+            "text": "+2 to Level of Socketed Lightning Gems",
+            "min": {
+              "min": 2,
+              "max": 2
+            },
+            "max": {
+              "min": 2,
+              "max": 2
+            }
+          },
+          {
+            "text": "+(80-120) to Intelligence",
+            "min": {
+              "min": 80,
+              "max": 80
+            },
+            "max": {
+              "min": 120,
+              "max": 120
+            }
+          },
+          {
+            "text": "(30-50)% increased Lightning Damage",
+            "min": {
+              "min": 30,
+              "max": 30
+            },
+            "max": {
+              "min": 50,
+              "max": 50
+            }
+          },
+          {
+            "text": "Adds (5-15) to (100-140) Lightning Damage to Spells",
+            "min": {
+              "min": 5,
+              "max": 15
+            },
+            "max": {
+              "min": 100,
+              "max": 140
+            }
+          },
+          {
+            "text": "40% increased Strength Requirement",
+            "min": {
+              "min": 40,
+              "max": 40
+            },
+            "max": {
+              "min": 40,
+              "max": 40
+            }
+          },
+          {
+            "text": "Damage Penetrates 20% Lightning Resistance",
+            "min": {
+              "min": 20,
+              "max": 20
+            },
+            "max": {
+              "min": 20,
+              "max": 20
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

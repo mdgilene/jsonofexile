@@ -1,0 +1,44 @@
+{
+  "data": {
+    "items": [
+      {
+        "name": "Abberath's Hooves"
+      },
+      {
+        "name": "Abyssus"
+      },
+      {
+        "name": "Abberath's Horn"
+      },
+      {
+        "name": "Agnerod South"
+      },
+      {
+        "name": "Advancing Fortress"
+      },
+      {
+        "name": "Agnerod North"
+      },
+      ...
+      ...
+      ...
+      ...
+      ...
+      {
+        "name": "Xoph's Inception"
+      },
+      {
+        "name": "Yoke of Suffering"
+      },
+      {
+        "name": "Zerphi's Youth"
+      },
+      {
+        "name": "Zerphi's Last Breath"
+      },
+      {
+        "name": "Zahndethus' Cassock"
+      }
+    ]
+  }
+}

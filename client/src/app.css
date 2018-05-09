@@ -1,0 +1,52 @@
+.example {
+  display: grid;
+  grid-template-areas:
+    'var var var var var'
+    'code code output output output';
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+pre {
+  margin: 0 !important;
+  max-height: 600px;
+}
+
+.variables {
+  grid-area: var;
+}
+
+.code {
+  grid-area: code;
+}
+
+.output {
+  grid-area: output;
+}
+
+.api-header {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}

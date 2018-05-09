@@ -1,0 +1,16 @@
+{
+  "short_name": "JSONofExile",
+  "name": "JSON of Exile",
+  "icons": [
+    {
+      "src":
+        "http://pathofexile.com/image/favicon/android-chrome-192x192.png?oriath",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

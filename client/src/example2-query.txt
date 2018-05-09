@@ -1,0 +1,5 @@
+query GetAllItems {
+  items(query: {}) {
+    name
+  }
+}

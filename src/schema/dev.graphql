@@ -1,0 +1,5 @@
+type Mutation {
+  addItem(data: ItemInput): Item
+  updateItem(_id: String, fields: ItemInput): Item
+  clear: String
+}

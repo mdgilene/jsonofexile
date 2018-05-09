@@ -1,0 +1,41 @@
+query GetItem($name: String) {
+  items(query: {name: $name}) {
+    _id
+    name
+    rarity
+    levelReq
+    class
+    dropLevel
+    statReq {
+      str
+      dex
+      int
+    }
+    flavor
+    tags
+    icon
+    base
+    implicitMods {
+      text
+      min {
+        min
+        max
+      }
+      max {
+        min
+        max
+      }
+    }
+    explicitMods {
+      text
+      min {
+        min
+        max
+      }
+      max {
+        min
+        max
+      }
+    }
+  }
+}

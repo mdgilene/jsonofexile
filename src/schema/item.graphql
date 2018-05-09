@@ -1,0 +1,204 @@
+"Item type"
+type Item {
+  "Unique id of item"
+  _id: String
+  "Name of the item"
+  name: String
+  "Item rarity"
+  rarity: Rarity
+  "Level requirement"
+  levelReq: Int
+  "Item class"
+  class: ItemClass
+  "Drop level"
+  dropLevel: Int
+  "Drop league"
+  leagues: [League]
+  "Drop areas"
+  dropAreas: [String]
+  "Stat requirements"
+  statReq: StatReq
+  "Flavor text"
+  flavor: String
+  "Tags"
+  tags: [String]
+  "Inventory Icon"
+  icon: String
+
+  "Base item"
+  base: String
+
+  "Implicit Modifiers"
+  implicitMods: [Mod]
+  "Explicit Modifers"
+  explicitMods: [Mod]
+}
+
+input ItemInput {
+  "Name of the item"
+  name: String
+  "Item rarity"
+  rarity: Rarity
+  "Level requirement"
+  levelReq: Int
+  "Item class"
+  class: ItemClass
+  "Drop level"
+  dropLevel: Int
+  "Drop league"
+  leagues: [League]
+  "Drop areas"
+  dropAreas: [String]
+  "Stat requirements"
+  statReq: InputStatReq
+  "Flavor text"
+  flavor: String
+  "Tags"
+  tags: [String]
+  "Inventory Icon"
+  icon: String
+
+  "Base item"
+  base: String
+
+  "Implicit Modifiers"
+  implicitMods: [InputMod]
+  "Explicit Modifers"
+  explicitMods: [InputMod]
+}
+
+"Stat Requirements"
+type StatReq {
+  str: Int
+  dex: Int
+  int: Int
+}
+
+"Input Stat Requirements"
+input InputStatReq {
+  str: Int
+  dex: Int
+  int: Int
+}
+
+"Item Modifier"
+type Mod {
+  text: String
+  min: Range
+  max: Range
+}
+
+"Input Item Modifier"
+input InputMod {
+  text: String
+  min: InputRange
+  max: InputRange
+}
+
+"Item Modifier Range"
+type Range {
+  min: Int
+  max: Int
+}
+
+"Input Item Modifier Range"
+input InputRange {
+  min: Int
+  max: Int
+}
+
+"Query for items"
+input ItemQuery {
+  "Unique id of item"
+  _id: String
+  "Name of the item"
+  name: String
+}
+
+"Rarities"
+enum Rarity {
+  NORMAL
+  MAGIC
+  RARE
+  UNIQUE
+}
+
+"Item Classes"
+enum ItemClass {
+  LIFE_FLASKS
+  MANA_FLASKS
+  HYBRID_FLASKS
+  CURRENCY
+  AMULETS
+  RINGS
+  CLAWS
+  DAGGERS
+  WANDS
+  ONE_HAND_SWORDS
+  THRUSTING_ONE_HAND_SWORDS
+  ONE_HAND_AXES
+  ONE_HAND_MACES
+  BOWS
+  STAVES
+  TWO_HAND_SWORDS
+  TWO_HAND_AXES
+  TWO_HAND_MACES
+  ACTIVE_SKILL_GEMS
+  SUPPORT_SKILL_GEMS
+  QUIVERS
+  BELTS
+  GLOVES
+  BOOTS
+  BODY_ARMOURS
+  HELMETS
+  SHIELDS
+  SMALL_RELICS
+  MEDIUM_RELICS
+  LARGE_RELICS
+  STACKABLE_CURRENCY
+  QUEST_ITEMS
+  SCEPTRES
+  UTILITY_FLASKS
+  CRITICAL_UTILITY_FLASKS
+  MAPS
+  UNARMED
+  FISHING_RODS
+  MAP_FRAGMENTS
+  HIDEOUT_DOODADS
+  MICROTRANSACTIONS
+  JEWEL
+  DIVINATION_CARD
+  LABYRINTH_ITEM
+  LABYRINTH_TRINKET
+  LABYRINTH_MAP_ITEM
+  MISC_MAP_ITEMS
+  LEAGUESTONES
+  PANTHEON_SOUL
+  PIECE
+  ABYSS_JEWEL
+}
+
+"Leagues"
+enum League {
+  BESTIARY
+  ABYSS
+  HARBINGER
+  LEGACY
+  BREACH
+  ESSENCE
+  PROPHECY
+  PERANDUS
+  TALISMAN
+  WARBANDS
+  TEMPEST
+  TORMENT
+  BLOODLINES
+  RAMPAGE
+  BEYOND
+  AMBUSH
+  INVASION
+  DOMINATION
+  NEMESIS
+  ANARCHY
+  ONSLAUGHT
+}

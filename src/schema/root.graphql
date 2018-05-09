@@ -1,0 +1,15 @@
+type Query {
+  items(query: ItemQuery): [Item]
+}
+
+"Compare a value during query"
+input ComparisonQuery {
+  eq: Int
+  lt: Int
+  lte: Int
+  gt: Int
+  gte: Int
+  in: [Int]
+  ne: Int
+  nin: [Int]
+}

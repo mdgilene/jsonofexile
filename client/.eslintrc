@@ -1,0 +1,6 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "react/no-danger": 0
+  }
+}
